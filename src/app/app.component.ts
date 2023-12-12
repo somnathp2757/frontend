@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-	this.http.get('http://http://35.172.211.211:3000').subscribe((data: any)  => {
+	this.http.get('http:35.172.211.211:3000').subscribe((data: any)  => {
   	console.log(data);
 	});
   }
